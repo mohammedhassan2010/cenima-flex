@@ -1,0 +1,81 @@
+body {
+    background-color: #00000d;
+}
+.title {
+    color: red;
+    font-family: cursive;
+    font-size: 30px;
+}
+nav {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 0px 3px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+li {
+    padding-left:10px ;
+}
+.searchBox  {
+    width: 75%;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(26, 22, 47, 1);
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    width: 30%;
+    font-family: sans-serif;
+    
+}
+.cards {
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: flex-end;
+        
+                
+
+}
+.card {
+    background-color: red;
+    flex-shrink:1;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    padding: 1px;
+
+}
+
